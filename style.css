@@ -5,15 +5,191 @@
     }
     body {
         background-color:#f7f7fa;
-        direction: ltr;
+        direction: rtl;
        
     }
+   .nav1 { 
+       display: flex;
+       width: 100%;
+       height: 60px;
+       background-color:rgba(238, 210, 0, 0.493);
+   }
+
+   .none {
+       cursor: pointer;
+          box-sizing: content-box;
+   }
+   .text1 {  cursor: pointer;
+       border-radius: 8px;
+     display: flex;
+     align-self: center;
+       padding: 10px;
+       padding: auto;
+       border: none;
+       text-align: start;
+       width: 1100px;
+       height: 34px;
+       background-color: white;
+   }
+   
+   .english 
+   {
+       margin: 20px;
+       align-self: center;
+       color: black;
+       text-decoration: none;
+       font-size: small;
+   } 
+   .egypt { 
+       cursor: pointer;
+       width: 25px;
+   }
   
-    .emad { 
-      margin: 0;
-      padding: 0%;
-      font-size: 20px; 
-      color: black;
-     text-align: center; 
-     flex-direction: column;
-    }
+   .el { 
+     align-self: start;
+       padding: 20px ;
+       font-size: 15px;
+
+   }
+   .eg { font-weight: bold;
+      padding: 10px;
+       align-self: flex-end;
+       font-size: 18px; 
+   } 
+   .ss {  cursor: pointer;
+    padding:11px;
+    margin: 1px;
+}
+.select { cursor: pointer;
+    background-color:rgb(254, 238, 0); 
+    width: 22px;
+    font-weight: bold;
+    height: 15px;
+    border: none;
+    font-size: 20px;
+
+} 
+.login {
+    cursor: pointer;
+     opacity: 0.8;
+     font-weight: bold;
+     display: flex;
+     list-style: none;
+    align-self: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+.log {
+    margin: 5px;
+    opacity: initial;
+    font-size: 17px;
+    width: 112px;
+    height: 20px; 
+    border-left:  0.2px solid black ;
+}
+.in {
+    padding:auto;
+     margin-right: 17px;
+    width: 110px;
+    font-size: 17px;
+}
+.im {
+    width: 15px;
+}
+ .car {
+     height: 20px;
+     width: 24px;
+ }
+ .nav2 {
+     display: flex;
+      cursor: pointer;
+     background-color:white;
+     height: 43px;
+     width:100%;
+ }
+ 
+ .all1 { 
+     border: 00.5px solid whitesmoke;
+    background-color: rgb(251, 251, 251);
+     word-spacing: 5px;
+     justify-content: space-between;
+     text-align: center;
+    color: rgb(68, 68, 175);
+     border-radius: 3px;
+     width: 180px;
+     height: 100%;
+ }
+ .all { 
+      margin: 9px;
+    border-radius: 3px;
+       justify-content: center;
+     align-self: center;
+     font-size: 19px;
+     height:30px;
+    width: 120px;
+     
+    
+ }
+ .the-ul {
+     font-weight: bold;
+     font-size: 18px;
+     padding: 7px;
+     width: 35%;
+    display: flex;
+    justify-content: space-between;
+     list-style: none;
+     color: black;
+     
+     background-color: rgb(251, 251, 251);  
+ }
+ .red {
+     color: rgb(219, 25, 25);
+ }
+     .baner {
+         
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+     }
+     .photoo {
+        
+       justify-content: center;
+         width: 75%;
+     }
+     .many {
+         
+         padding-top: 12px;
+         margin: auto;
+         display: flex;
+         justify-content: space-between;
+         width: 75%;
+         height: 150px;
+     }
+     .arap {
+        margin-top: 26px;
+         font-weight: bold;
+         margin-right: 220px;
+         color: rgba(24, 16, 16, 0.753);
+         font-size: 24px;
+         display: flex;
+         justify-content: start;
+     }
+     .market {
+         border-radius: 5px;
+        font-size: 17px;
+         margin-right: 1440px;
+         height: 35px;
+         width: 90px;
+         background-color: rgb(91, 246, 70);
+     }
+     .im {
+         display: flex;
+         justify-content: center;
+         margin: auto;
+     }
+     .i {
+
+         width: 1350px;
+     }
